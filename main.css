@@ -1,0 +1,70 @@
+@keyframes donut-explosion{
+    0%{
+        width: 0;
+        height: 0;
+        color: green;
+    }
+
+    25%{
+        color: blue;
+    }
+
+    50% {
+        width: 10rem;
+        height: 10rem;
+        border: 5rem solid rgb(176, 223, 83)
+        font-size: 50px;
+    }
+
+}
+
+.donut{
+    position: absolute;
+    left: 50rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 15rem;
+
+    border: 5rem solid rgb(163, 43, 43);
+    border-radius: 10rem;
+    background-color:rgb(19, 93, 153);
+    animation: donut-explosion 2s infinite;
+}
+
+.circle {
+    position: right;
+    padding: 15rem;
+    width: 10rem;
+    height: 10rem;
+
+    border: 5rem solid rgb(143, 141, 146);
+    border-radius: 10rem;
+    background-color:rgb(255, 238, 192);
+    animation: donut-explosion 2.5s infinite;
+}
+
+.smileyface{
+    position: left;
+    padding: 15rem;
+    width: 10rem;
+    height: 10rem;
+
+    border: 5rem solid rgb(235, 98, 194);
+    border-radius: 10rem;
+    background-color:rgb(102, 185, 102);
+    animation: donut-explosion 3s infinite;
+}
+
+.grumpyface{
+    position: absolute;
+    left: 50rem;
+    top: 50rem;
+    padding: 15rem;
+    width: 10rem;
+    height: 10rem;
+
+    border: 5rem solid black;
+    border-radius: 10rem;
+    background-color: pink;
+    animation: donut-explosion reverse 3.5s infinite;
+}
